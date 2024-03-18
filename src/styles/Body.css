@@ -1,0 +1,139 @@
+ 
+.body {
+    margin: 4%;
+    padding: 0%;
+    text-align: center;
+    border: 1px solid #f84e4e;
+}
+.section1{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.aboutus{
+    margin: 3%;
+    padding: 4%;
+    text-align: left;
+    border: 1px solid #f84e4e;
+}
+
+
+
+/* 2nd sectn */
+.section2{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.services{
+    margin: 2%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.servicex{
+    margin: 1%;
+    padding: 0%;
+    text-align: center;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+.section3{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.sectors{
+    margin: 3%;
+    padding: 4%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+
+.section4{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.practice{
+    margin: 3%;
+    padding: 4%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+.section5{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.partners{
+    margin: 3%;
+    padding: 4%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+
+.section6{
+    position: relative;
+    background-image: url('../images/image4.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+.sectpartwu{
+    background-color: #eac7c78d;
+    margin: 0%;
+    padding: 4%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+
+
+
+

@@ -1,13 +1,17 @@
 import './App.css';
+import Welcomep from './components/Welcomep';
+import Body from './components/Body';
+import Footer from './components/Footer';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p> Edit and save to reload. </p>
-      </header>
+      <Welcomep />
+      <Body />
+      <Footer />
     </div>
   );
 }

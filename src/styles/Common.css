@@ -1,0 +1,128 @@
+
+
+
+/* header */
+.wlcm{
+    position: relative;
+    background-image: url('../images/image2.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0px;
+    position: static;
+    border: 1px solid #f84e4e;
+}
+.logo{
+    color: #fff; 
+    margin: 2%;
+    margin-left: 4%;
+    padding: 0%;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Inter';
+}
+.navlinks {
+    list-style-type: none; 
+    padding: 0;
+    margin: 2%;
+    margin-top: 2.3%;
+    display: flex; 
+    color: #fff;
+    border: 1px solid #f84e4e;
+}
+.navlink {
+    font-family: 'Inter';
+    margin-right: 35px; 
+    color: #fff; 
+    font-weight: 400;
+    font-size: 17px;
+}
+.navlink:hover {
+    border: 1px solid #f84e4e;
+}
+.gitbutton{
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+
+/* welcome sectn */
+.wlcmp{
+    background-color: #eac7c78d;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+.headerw{
+    color: #f84e4e;
+    font-family: 'Inter';
+    margin-right: 35px; 
+    font-weight: 400;
+    font-size: 26px;
+}
+.pwlcm{
+    color: #f84e4e;
+    font-family: 'Inter';
+    margin-right: 35px; 
+    font-weight: 400;
+    font-size: 17px;
+}
+.imagelg{
+    margin: 2%;
+    padding: 4%;
+    width: 10%;
+    height: 10%;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+    position: static;
+    border: 1px solid #f84e4e;
+}
+.logof{
+    color: #fff; 
+    margin: 2%;
+    margin-left: 4%;
+    padding: 0%;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Inter';
+}
+.navlinksf {
+    list-style-type: none; 
+    padding: 0;
+    margin: 2%;
+    margin-top: 2.3%;
+    display: flex; 
+    color: #fff;
+    border: 1px solid #f84e4e;
+}
+.navlinkf {
+    font-family: 'Inter';
+    margin-right: 35px; 
+    color: #fff; 
+    font-weight: 400;
+    font-size: 17px;
+}

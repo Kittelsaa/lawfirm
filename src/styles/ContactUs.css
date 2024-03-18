@@ -1,0 +1,36 @@
+ 
+
+
+.contactus {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.contct{
+    margin: 0%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+.textp{
+    margin: 0%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #f84e4e;
+}
+
+
+
+
+
+
+
+
