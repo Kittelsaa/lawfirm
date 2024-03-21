@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/ContactUs.css';
 import lawlg from '../images/lawlg.png';
+import map from '../images/map.jpg';
+
 
 
 
@@ -9,10 +11,14 @@ export default function ContactUs() {
     <div className='contactus'>
       <img className='imagelg' src={lawlg} alt='lg'></img> 
       
-      
-      
-      
 
+      <section className='titlecontct'>  
+        <h3 className='textcontct'>Contact Us</h3>
+        <p className='pargcontct'>
+          Lorem Ipsum is simply dummy text of the printing and <br/>
+          typesetting industry. 
+        </p>
+      </section>
 
 
       <section className='contct'>
@@ -35,9 +41,13 @@ export default function ContactUs() {
               </div>
             </div>
           </section>
-          <h4>hehe </h4>
+          <img className='imagemap' src={map} alt='lg'></img> 
         </div>
+
+
+
         <form className="contactform" >
+        <div className='formgrp'>
         <div className="form-group">
           <h4 className='textoi'>Name</h4>
           <input
@@ -45,15 +55,16 @@ export default function ContactUs() {
             name="name"
           />
         </div>
-
         <div id='epcontact'>
-        <div className="form-gr" >
-        <h4 className='textoi'>Email</h4>
-          <input
-            type="email"
-            name="email"
-          />
+          <div className="form-gr" >
+          <h4 className='textoi'>Email</h4>
+            <input
+              type="email"
+              name="email"
+            />
+          </div>
         </div>
+
         <div className="form-gr">
         <h4 className='textoi'>Phone</h4>
           <input
@@ -62,8 +73,6 @@ export default function ContactUs() {
           />
         </div>
         </div>
-        
-
         <div className="form-group">
         <h4 className='textoi'>Message</h4>
           <textarea

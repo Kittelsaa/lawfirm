@@ -1,24 +1,77 @@
  
 .body {
-    margin: 4%;
+    margin: 0%;
     padding: 0%;
     text-align: center;
     border: 1px solid #f84e4e;
 }
+
+
+
+
+
+
+/* sectn 1st */
 .section1{
     margin: 0%;
     padding: 0%;
     display: flex;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-between;
     border: 1px solid #f84e4e;
 }
 .aboutus{
-    margin: 3%;
-    padding: 4%;
+    margin: 0%;
+    padding: 0%;
     text-align: left;
     border: 1px solid #f84e4e;
 }
+.imgs1{
+    width: 26%;
+    height: 90%;
+    margin: 0%;
+    margin-left: 8%;
+    padding: 4%;
+}
+.imglg{
+    width: 100%;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+    right: 0%;
+    margin-top: -30%;
+    position: absolute;
+}
+.imagelg{
+    width: 100%;
+    float: right;
+    margin-left: 0%;
+    
+    margin-right: 0%;
+    padding-right: 0%;
+    right: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.learnmb{
+    margin: 1.5%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    align-items: flex-end;
+    font-family: 'Inter';
+    border: 0;
+}
+
+
+
 
 
 
@@ -49,6 +102,9 @@
 
 
 
+
+
+/* sectn 3 */
 .section3{
     margin: 0%;
     padding: 0%;
@@ -70,6 +126,7 @@
 
 
 
+/* sectn 4 */
 .section4{
     margin: 0%;
     padding: 0%;
@@ -90,6 +147,8 @@
 
 
 
+
+/* sectn 5 */
 .section5{
     margin: 0%;
     padding: 0%;
@@ -111,6 +170,8 @@
 
 
 
+
+/* sectn 6 */
 .section6{
     position: relative;
     background-image: url('../images/image4.jpg');

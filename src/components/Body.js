@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/Body.css';
 import image3 from '../images/image3.jpg';
-import lawlg from '../images/lawlg.png';
+import lawl from '../images/lawl.png';
 import image5 from '../images/image5.jpg';
 import image from '../images/image.jpg';
 import image1 from '../images/image1.jpg';
+
 
 
 
@@ -12,8 +13,9 @@ export default function Body() {
   return (
     <div className='body'>
 
+
       <section className='section1'>
-        <img src={image3} alt='k'/>
+        <img className='imgs1' src={image3} alt='k'/>
         <div className='aboutus'>
           <h4 className='learnm'>Learn more about us</h4>
           <h2 className='aboutush'>About Us</h2>
@@ -24,10 +26,14 @@ export default function Body() {
           grow, innovate and thrive.
           </p>
           <button className='learnmb'> Learn more</button>
+          
         </div>
-        <img className='imagelg' src={lawlg} alt='lg'></img> 
+        
+        
       </section>
-
+      <div className='imglg'>
+            <img className='imagelg' src={lawl} alt='lg'></img> 
+          </div>
 
 
       <section className='section2'>
