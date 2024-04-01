@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lawfirm/static/css/main.50d1150b.css",
+    "main.js": "/lawfirm/static/js/main.8421b688.js",
+    "static/js/453.0290ea67.chunk.js": "/lawfirm/static/js/453.0290ea67.chunk.js",
+    "static/media/image2.jpeg": "/lawfirm/static/media/image2.ae0b246ea5aa0658dcfa.jpeg",
+    "static/media/map.jpg": "/lawfirm/static/media/map.15b11e7e892129a32c96.jpg",
+    "static/media/image5.jpg": "/lawfirm/static/media/image5.f4fbfb76a3df90fc24ed.jpg",
+    "static/media/image4.jpg": "/lawfirm/static/media/image4.fca9149f9d7405ea9fb3.jpg",
+    "static/media/image.jpg": "/lawfirm/static/media/image.48c17ecb12484c0e5629.jpg",
+    "static/media/image3.jpg": "/lawfirm/static/media/image3.fecfd0601adb294e6353.jpg",
+    "static/media/image1.jpg": "/lawfirm/static/media/image1.4ce615f6f64c3f77749c.jpg",
+    "static/media/lawlg.png": "/lawfirm/static/media/lawlg.d8fe8317a050ccc3f479.png",
+    "static/media/lawl.png": "/lawfirm/static/media/lawl.8e681407f4c0a7cd2f52.png",
+    "index.html": "/lawfirm/index.html",
+    "main.50d1150b.css.map": "/lawfirm/static/css/main.50d1150b.css.map",
+    "main.8421b688.js.map": "/lawfirm/static/js/main.8421b688.js.map",
+    "453.0290ea67.chunk.js.map": "/lawfirm/static/js/453.0290ea67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50d1150b.css",
+    "static/js/main.8421b688.js"
+  ]
+}
