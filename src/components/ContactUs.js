@@ -9,7 +9,23 @@ import map from '../images/map.jpg';
 export default function ContactUs() {
   return (
     <div className='contactus'>
-      <img className='imagelg' src={lawlg} alt='lg'></img> 
+      <section className='section6'>
+        <div className='sectpartwu'>
+          <p className='sectpartwup'>
+            Partner with our experienced and <br/>
+            passionate legal experts for customized <br/>
+            solutions to your complex challenges and <br/>
+            take advantage of the tremendous <br/>
+            opportunities in Africa.
+          </p>
+          <button className='sectpartwub'>Button cta</button>
+          
+        </div>
+      </section>
+      <div className='imgwa'> 
+        <img className='imagecnt' src={lawlg} alt='lg'></img> 
+      </div>
+      
       
 
       <section className='titlecontct'>  
@@ -26,17 +42,21 @@ export default function ContactUs() {
           <section className='textp'>
             <div className='clinfo'>
               <div className='clinfos'> 
+                <div className='clinfocube'></div>
                 <h4 className='clinfot'>Imaginary Rwanda</h4>
               </div>
               <div className='clinfos'> 
+                <div className='clinfocube'></div>
                 <h4 className='clinfot'>+250 778 888 88</h4>
               </div>
             </div>
             <div className='clinfo'>
-              <div className='clinfos'> 
+              <div className='clinfos'>
+                <div className='clinfocube'></div>
                 <h4 className='clinfot'>+250 788 888 88</h4>
               </div>
               <div className='clinfos'> 
+                <div className='clinfocube'></div>
                 <h4 className='clinfot'>example@email.com</h4>
               </div>
             </div>
@@ -47,44 +67,16 @@ export default function ContactUs() {
 
 
         <form className="contactform" >
-        <div className='formgrp'>
-        <div className="form-group">
-          <h4 className='textoi'>Name</h4>
-          <input
-            type="text"
-            name="name"
-          />
-        </div>
-        <div id='epcontact'>
-          <div className="form-gr" >
-          <h4 className='textoi'>Email</h4>
-            <input
-              type="email"
-              name="email"
-            />
+          <div className="form-grpc">
+            <input placeholder=" First Name" type="text" name="name"/>
+            <input placeholder=" First Name" type="text" name="name"/>
           </div>
-        </div>
-
-        <div className="form-gr">
-        <h4 className='textoi'>Phone</h4>
-          <input
-            type="tel"
-            name="phone"
-          />
-        </div>
-        </div>
-        <div className="form-group">
-        <h4 className='textoi'>Message</h4>
-          <textarea
-            name="message"
-          ></textarea>
-        </div>
-
-        
-        <div className="form-group">
-          <button type="submit">Submit</button>
-        </div>
-    </form>
+          <div className="form-grc">
+            <input placeholder=" First Name" type="text" name="name"/>
+            <textarea placeholder="First Name" className="form-m" name="message"></textarea>
+          </div>
+          <button type="submit">Send a message</button>
+        </form>
       </section>
       
 

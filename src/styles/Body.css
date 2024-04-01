@@ -2,8 +2,9 @@
 .body {
     margin: 0%;
     padding: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
-    border: 1px solid #f84e4e;
 }
 
 
@@ -15,52 +16,70 @@
 .section1{
     margin: 0%;
     padding: 0%;
+    margin-top: 8%;
+    margin-bottom: 4%;
     display: flex;
     width: 100%;
     flex-direction: row;
-    border: 1px solid #f84e4e;
 }
 .aboutus{
     margin: 0%;
     padding: 0%;
+    margin-left: 3%;
+    padding-top: 10%;
+    width: 100%;
     text-align: left;
-    border: 1px solid #f84e4e;
 }
 .imgs1{
-    width: 26%;
-    height: 90%;
+    width: 31%;
     margin: 0%;
-    margin-left: 8%;
-    padding: 4%;
+    margin-left: 3%;
+    padding: 0%;
 }
 .imglg{
     width: 100%;
-    float: right;
+    float: inline-end;
     padding: 0%;
     margin: 0%;
-    right: 0%;
-    margin-top: -30%;
-    position: absolute;
+    
+    margin-top: 24%;
 }
 .imagelg{
-    width: 100%;
-    float: right;
-    margin-left: 0%;
-    
-    margin-right: 0%;
-    padding-right: 0%;
+    width: 10%;
+    float: inline-end;
+    padding: 0%;
+    margin: 0%;
     right: 0%;
+    position: absolute;
+}
+.aboutush{
+    font-family: 'Alegreya';
+    font-weight: 800;
+    font-size: 26px;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.learnm{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
     padding: 0%;
     margin: 0%;
 }
-
-
+.learnmp{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 5%;
+}
 .learnmb{
-    margin: 1.5%;
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding: 4%;
     font-size: 13px;
     background-color: #000;
     color: #fff;
@@ -75,6 +94,7 @@
 
 
 
+
 /* 2nd sectn */
 .section2{
     margin: 0%;
@@ -82,22 +102,42 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid #f84e4e;
 }
 .services{
-    margin: 2%;
+    margin: 3%;
+    margin-top: -3%;
     padding: 0%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid #f84e4e;
+}
+.services h4{
+    font-weight: 700;
+    align-items: flex-end;
+    font-family: 'Inter';
+}
+.services p{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0%;
+    align-items: flex-end;
+    font-family: 'Inter';
 }
 .servicex{
     margin: 1%;
     padding: 0%;
     text-align: center;
-    border: 1px solid #f84e4e;
+    background-color: #F6ECE0;
 }
+.servicey{
+    margin: 1%;
+    padding: 0%;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+
+
 
 
 
@@ -108,10 +148,10 @@
 .section3{
     margin: 0%;
     padding: 0%;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid #f84e4e;
 }
 .sectors{
     margin: 3%;
@@ -119,7 +159,29 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    border: 1px solid #f84e4e;
+}
+.sectorsp {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0%;
+    margin-top: -2%;
+    margin-bottom: 4%;
+    align-items: flex-end;
+    font-family: 'Inter';
+}
+.sbox {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 2%;
+    margin-bottom: 4%;
+    align-items: flex-end;
+    font-family: 'Inter';
+    background-color: #F6ECE0;
+}
+.image5{
+    margin: 2%;
+    padding: 0%;
+    width: 38%;
 }
 
 
@@ -133,7 +195,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid #f84e4e;
 }
 .practice{
     margin: 3%;
@@ -141,9 +202,12 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    border: 1px solid #f84e4e;
 }
-
+.image6{
+    margin: 2%;
+    padding: 0%;
+    width: 42%;
+}
 
 
 
@@ -155,7 +219,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid #f84e4e;
 }
 .partners{
     margin: 3%;
@@ -163,33 +226,37 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    border: 1px solid #f84e4e;
 }
-
-
-
-
-
-
-/* sectn 6 */
-.section6{
-    position: relative;
-    background-image: url('../images/image4.jpg');
-    background-size: cover;
-    background-position: center;
+.image7{
     margin: 0%;
+    padding: 2%;
+    width: 44%;
+    height: 44%;
+}
+.partnershh {
+    font-weight: 700;
+    font-size: 15px;
     padding: 0%;
-}
-.sectpartwu{
-    background-color: #eac7c78d;
     margin: 0%;
-    padding: 4%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #f84e4e;
+    margin-bottom: 1%;
+    font-family: 'Inter';
 }
+.partnersp {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 3%;
+    font-family: 'Inter';
+}
+
+
+
+
+
+
+
+
 
 
 
